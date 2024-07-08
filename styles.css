@@ -1,6 +1,15 @@
 body {
 	background: black;
+	/* <uniquifier>: Use a unique and descriptive class name */
+	/* <weight>: Use a value from 300 to 800 */
 }
+/* .open-sans-<uniquifier > {
+	font-family: "Open Sans", sans-serif; */
+/* font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal; */
+/* font-variation-settings: "" 100; */
+/* } */
 * {
 	border: 1px dashed red;
 	min-height: 10px;
@@ -13,4 +22,36 @@ p {
 	width: 400px;
 	height: 300px;
 	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header h1 {
+	width: 50px;
+	margin: 0;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-right {
+	padding: 20px;
+}
+input {
+	border: none;
+	border-bottom: 1px grey solid;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: #bbb8b8;
+	padding: 5px 10px;
 }
