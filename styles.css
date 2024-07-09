@@ -27,7 +27,7 @@ p {
 	display: flex;
 }
 .postcard-header h1 {
-	width: 50px;
+	width: 90%;
 	margin: 0;
 }
 .postcard-header img {
